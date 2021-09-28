@@ -1,71 +1,57 @@
+html{
+  background-color: rgb(46, 38, 94);
+}
 .container {
-  display: block;
   width: 362px;
   height: 308px;
-  background-color: red;
+  background-color: rgb(221, 96, 64);
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
   z-index: 0;
+  position: absolute;
+  top: -10px;
+  display: flex;
+  justify-content: center;
 }
 
 .container-1 {
-  background-color: orchid;
-  clip-path: polygon(50% 0, 102% 101%, 0 100%);
-  width: 162px;
-  height: 108px;
-  position: absolute;
-  z-index: 1;
-  transform: rotate(180deg);
-  top: 280px;
-  left: 100px;
-  border-radius: -2px 68px 40px 24px;
+  transform: translate(25%, 50%);
 }
-canvas{
-  /* background-color: orchid; */
-  /* width: 100%; */
-  /* border-radius-bottom: 1000px; */
 
-  /* transform: scaleY(100px);
-  transform: scaleX(20px); */
-}
-.nose{
-
-  /* height: ; */
-/* transform: rotate(360deg); */
-  /* width: 162px;
-  height: 108px; */
-  position: absolute;
-  /* z-index: 1; */
-  /* transform: rotate(0deg); */
-  top: 280px;
-  left: 130px;
-  /* border-radius: -2px 68px 40px 24px; */
-}
-/*caret*/
-.bagview {
+.clip {
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  background-color: white;
+  width: 402px;
+  height: 308px;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
 }
-.caret {
-  left: 0;
-  overflow: hidden;
-  position: absolute;
-  bottom: -5px;
-  width: 100%;
-  height: 8px;
-  /* z-index: 2; */
+.tri-con {
+  transform: rotate(180deg);
 }
-.caret::after {
-  left: 50%;
-  border: 1px solid #d2d2d7;
-  content: "";
-  display: block;
-  position: absolute;
-  top: -0.5px;
-  width: 10px;
-  height: 10px;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
-  -webkit-transform-origin: 0% 0;
-  transform-origin: 0% 0;
-  z-index: 7;
+
+.triangle1{
+top: 8.5rem;
+ position: absolute;
+  width: 200px;
+  height: 200px;
+  transform: rotate(320deg) skewX(4deg) scale(1, 0.866);
   background-color: white;
+  border-bottom-left-radius: 11%;
+  z-index: -2;
 }
+
+.triangle{
+  position: relative;
+  background-color: rgb(221, 96, 64);
+  bottom: 20px;
+  width: 101px;
+  height: 79px;
+  border-top-right-radius: 20%;
+  transform: rotate(320deg) skewX(4deg) scale(1, 0.866);
+
+}
+
+
