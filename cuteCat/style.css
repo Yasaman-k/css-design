@@ -14,8 +14,8 @@ html {
 }
 
 .eye .black {
-  width: 66px;
-  height: 79px;
+  width: 91px;
+  height: 112px;
   background-color: black;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
   z-index: 0;
@@ -23,12 +23,12 @@ html {
   top: 23px;
   display: flex;
   justify-content: center;
-  margin-left: 29px;
+  margin-left: 25px;
   transform: rotate(354deg);
 }
 .eye .black .white-big {
-  width: 39px;
-  height: 54px;
+  width: 4rem;
+  height: 5rem;
   background-color: white;
   border-radius: 50% 50% 50% 50% / 60% 64% 40% 40%;
   z-index: 0;
@@ -36,17 +36,16 @@ html {
   top: 2px;
   display: flex;
   justify-content: center;
-  
+
   transform: rotate(21deg);
   margin-left: -16px;
 }
 .eye2 .black2 .white-big {
-  transform: rotate(
-342deg);
-    margin-left: 16px;
+  transform: rotate(342deg);
+  margin-left: 16px;
 }
 .eye2 .black2 .white-small {
-margin-left: 0px !important;
+  margin-left: 0px !important;
 }
 .eye .black .white-small {
   width: 14px;
@@ -55,7 +54,7 @@ margin-left: 0px !important;
   border-radius: 50% 50% 50% 50% / 60% 64% 40% 40%;
   z-index: 0;
   position: absolute;
-  top: 61px;
+  top: 6rem;
   display: flex;
   justify-content: center;
   margin-left: 29px;
@@ -67,11 +66,11 @@ margin-left: 0px !important;
   position: absolute;
   display: flex;
   justify-content: center;
-  top: 10rem;
+  top: 7rem;
 }
 .eye {
-  width: 116px;
-  height: 99px;
+  width: 143px;
+  height: 131px;
   margin: 10px;
   background-color: rgb(177, 177, 31);
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
@@ -82,37 +81,20 @@ margin-left: 0px !important;
 .eye2 {
   box-shadow: inset -5px 2px 0px 5px black;
 }
-.black2{
+.black2 {
   transform: rotate(3deg) !important;
 }
 
-.lip2 {
-  margin-top: -11px;
-  margin-left: -7px;
-  width: 5rem;
-  height: 5rem;
-  background-color: red;
+.moon {
+  top: 7rem;
+  left: 26px;
   position: absolute;
-  border-radius: 0 0 50% 50%;
-  z-index: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transform: rotate(38deg);
+  box-shadow: 0px 0px 0px 0px black, 6px 9px 0px 0px black;
 }
-.lip- {
-  /* background-color: violet; */
-  position: relative;
-}
-.lip {
-  margin-top: -20px;
-  width: 4rem;
-  height: 5rem;
-  background-color: black;
-  /* position: relative; */
-  border-radius: 0 0 50% 50%;
-}
-
-.container-1 {
-  transform: translate(25%, 50%);
-}
-
 .clip {
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
   background-color: white;
