@@ -36,7 +36,6 @@ html {
   top: 2px;
   display: flex;
   justify-content: center;
-
   transform: rotate(21deg);
   margin-left: -16px;
 }
@@ -133,6 +132,7 @@ html {
 }
 
 .triangle1 {
+  left: 110px;
   top: 8.5rem;
   position: absolute;
   width: 200px;
@@ -144,6 +144,7 @@ html {
 }
 
 .triangle {
+  left: -8px;
   position: relative;
   background-color: rgb(221, 96, 64);
   bottom: 20px;
@@ -151,4 +152,61 @@ html {
   height: 79px;
   border-top-right-radius: 20%;
   transform: rotate(320deg) skewX(4deg) scale(1, 0.866);
+}
+.nose {
+  left: 12.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  border-radius: 50% 50% 50% 50% / 60% 64% 40% 40%;
+  position: absolute;
+  top: 16rem;
+  display: flex;
+  justify-content: center;
+  transform: rotate(
+45deg);
+  margin-left: -16px;
+}
+.nose.top{
+  left: 13rem;
+    width: 1.9rem;
+    height: 1.5rem;
+    background-color: brown;
+    border-radius: 50% 50% 50% 50% / 60% 64% 40% 40%;
+    position: absolute;
+    top: 15rem;
+    display: flex;
+    justify-content: center;
+    transform: rotate( 
+0deg);
+    margin-left: -16px;
+    z-index: 1;
+}
+.nose.bottom{
+  left: 213px;
+  width: 1.4rem;
+  height: 1.5rem;
+  background-color: rgb(119, 51, 51);
+  border-radius: 50% 50% 50% 50% / 60% 64% 40% 40%;
+  position: absolute;
+  top: 16.5rem;
+  display: flex;
+  justify-content: center;
+  transform: rotate( 
+0deg);
+  /* margin-left: -16px; */
+  z-index: -1;
+}
+.nose.right {
+  left: 14rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  border-radius: 50% 50% 50% 50% / 60% 64% 40% 40%;
+  position: absolute;
+  top: 16rem;
+  display: flex;
+  justify-content: center;
+  transform: rotate(
+-45deg);
 }
