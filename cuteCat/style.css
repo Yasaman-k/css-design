@@ -84,7 +84,26 @@ html {
 .black2 {
   transform: rotate(3deg) !important;
 }
-
+.eyelash {
+  top: 9.8rem;
+  left: 40px;
+  position: absolute;
+  width: 22px;
+  height: 27px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 0px 0px black, 3px 7px 0px 0px black;
+  transform: rotate(56deg) rotateY(-149deg) rotateZ(87deg);
+}
+.eyelash.right {
+  top: 9.8rem;
+  left: 357px;
+  position: absolute;
+  width: 22px;
+  height: 27px;
+  border-radius: 50%;
+  transform: rotate(38deg);
+  box-shadow: 0px 0px 0px 0px black, 3px 7px 0px 0px black;
+}
 .moon {
   top: 7rem;
   left: 26px;
@@ -95,10 +114,8 @@ html {
   transform: rotate(38deg);
   box-shadow: 0px 0px 0px 0px black, 6px 9px 0px 0px black;
 }
-.moon2{
-
+.moon2 {
   left: 340px;
-
 }
 .clip {
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
