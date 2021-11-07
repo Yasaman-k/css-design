@@ -1,6 +1,7 @@
 html {
   background-color: rgb(46, 38, 94);
 }
+
 .container {
   width: 362px;
   height: 308px;
@@ -11,6 +12,36 @@ html {
   top: -10px;
   display: flex;
   justify-content: center;
+}
+
+.threeLine {
+  width: 13px;
+  top: 10px;
+  height: 70px;
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 30px 3px 0 black;
+  margin-left: 20px;
+}
+
+.threeLine::after {
+  width: 13px;
+  height: 68px;
+  margin-left: -10px;
+  border-radius: 5px;
+  background-color: black;
+  content: '';
+  position: absolute;
+}
+
+.threeLine::before {
+  width: 13px;
+  height: 68px;
+  margin-left: 70px;
+  border-radius: 5px;
+  background-color: black;
+  content: '';
+  position: absolute;
 }
 
 .eye .black {
@@ -26,6 +57,7 @@ html {
   margin-left: 25px;
   transform: rotate(354deg);
 }
+
 .eye .black .white-big {
   width: 4rem;
   height: 5rem;
@@ -39,13 +71,16 @@ html {
   transform: rotate(21deg);
   margin-left: -16px;
 }
+
 .eye2 .black2 .white-big {
   transform: rotate(342deg);
   margin-left: 16px;
 }
+
 .eye2 .black2 .white-small {
   margin-left: 0px !important;
 }
+
 .eye .black .white-small {
   width: 14px;
   height: 13px;
@@ -60,6 +95,7 @@ html {
   transform: rotate(354deg);
   margin-left: 16px;
 }
+
 .eyes {
   width: 100%;
   position: absolute;
@@ -67,6 +103,7 @@ html {
   justify-content: center;
   top: 7rem;
 }
+
 .eye {
   width: 143px;
   height: 131px;
@@ -80,9 +117,11 @@ html {
 .eye2 {
   box-shadow: inset -5px 2px 0px 5px black;
 }
+
 .black2 {
   transform: rotate(3deg) !important;
 }
+
 .eyelash {
   top: 9.8rem;
   left: 40px;
@@ -93,6 +132,7 @@ html {
   box-shadow: 0px 0px 0px 0px black, 3px 7px 0px 0px black;
   transform: rotate(56deg) rotateY(-149deg) rotateZ(87deg);
 }
+
 .eyelash.right {
   top: 9.8rem;
   left: 357px;
@@ -103,6 +143,7 @@ html {
   transform: rotate(38deg);
   box-shadow: 0px 0px 0px 0px black, 3px 7px 0px 0px black;
 }
+
 .moon {
   top: 7rem;
   left: 26px;
@@ -113,9 +154,11 @@ html {
   transform: rotate(38deg);
   box-shadow: 0px 0px 0px 0px black, 6px 9px 0px 0px black;
 }
+
 .moon2 {
   left: 340px;
 }
+
 .clip {
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
   background-color: white;
@@ -127,6 +170,7 @@ html {
   align-items: center;
   position: relative;
 }
+
 .tri-con {
   transform: rotate(180deg);
 }
@@ -153,6 +197,7 @@ html {
   border-top-right-radius: 20%;
   transform: rotate(320deg) skewX(4deg) scale(1, 0.866);
 }
+
 .nose {
   left: 12.5rem;
   width: 1.5rem;
@@ -163,26 +208,26 @@ html {
   top: 16rem;
   display: flex;
   justify-content: center;
-  transform: rotate(
-45deg);
+  transform: rotate( 45deg);
   margin-left: -16px;
 }
-.nose.top{
+
+.nose.top {
   left: 13rem;
-    width: 1.9rem;
-    height: 1.5rem;
-    background-color: brown;
-    border-radius: 50% 50% 50% 50% / 60% 64% 40% 40%;
-    position: absolute;
-    top: 15rem;
-    display: flex;
-    justify-content: center;
-    transform: rotate( 
-0deg);
-    margin-left: -16px;
-    z-index: 1;
+  width: 1.9rem;
+  height: 1.5rem;
+  background-color: brown;
+  border-radius: 50% 50% 50% 50% / 60% 64% 40% 40%;
+  position: absolute;
+  top: 15rem;
+  display: flex;
+  justify-content: center;
+  transform: rotate( 0deg);
+  margin-left: -16px;
+  z-index: 1;
 }
-.nose.bottom{
+
+.nose.bottom {
   left: 213px;
   width: 1.4rem;
   height: 1.5rem;
@@ -192,11 +237,11 @@ html {
   top: 16.5rem;
   display: flex;
   justify-content: center;
-  transform: rotate( 
-0deg);
+  transform: rotate( 0deg);
   /* margin-left: -16px; */
   z-index: -1;
 }
+
 .nose.right {
   left: 14rem;
   width: 1.5rem;
@@ -207,6 +252,5 @@ html {
   top: 16rem;
   display: flex;
   justify-content: center;
-  transform: rotate(
--45deg);
+  transform: rotate( -45deg);
 }
