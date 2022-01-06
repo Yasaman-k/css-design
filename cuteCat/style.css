@@ -331,9 +331,9 @@ html {
 
 .ear-left {
   position: absolute;
-  left: 11%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-54%, -77%);
+  left: 96px;
+  -webkit-transform: translate(-54%, -77%);
+          transform: translate(-54%, -77%);
   -webkit-transform: rotate(324deg);
           transform: rotate(324deg);
   height: 122px;
@@ -345,7 +345,7 @@ html {
 
 .ear-right {
   position: absolute;
-  left: 38%;
+  left: 350px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-54%, -77%);
   -webkit-transform: rotate(40deg);
@@ -359,9 +359,8 @@ html {
 
 .ear-left-w {
   position: absolute;
-  left: 12%;
+  left: 100px;
   top: 90px;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-54%, -77%);
   -webkit-transform: rotate(324deg);
   transform: rotate(321deg);
@@ -374,10 +373,10 @@ html {
 
 .ear-right-w {
   position: absolute;
-  left: 40%;
+  left: 380px;
   top: 90px;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-54%, -77%);
+  -webkit-transform: translate(-54%, -77%);
+          transform: translate(-54%, -77%);
   -webkit-transform: rotate(40deg);
           transform: rotate(40deg);
   height: 71px;

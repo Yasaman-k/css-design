@@ -268,10 +268,8 @@ position: absolute;
 
 .ear-left{
   position: absolute;
- 
-  left: 11%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-54%, -77%);
+  left: 96px;
+transform: translate(-54%, -77%);
   transform: rotate(
 324deg);
   height: 122px;
@@ -282,7 +280,7 @@ position: absolute;
 }
 .ear-right{
   position: absolute;
-  left: 38%;
+  left: 350px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-54%, -77%);
   transform: rotate(
@@ -296,9 +294,9 @@ position: absolute;
 
 .ear-left-w{
   position: absolute;
-  left: 12%;
+  left: 100px;
   top: 90px;
-  -webkit-transform: translate(-50%, -50%);
+
   transform: translate(-54%, -77%);
   -webkit-transform: rotate(
 324deg);
@@ -312,9 +310,8 @@ position: absolute;
 }
 .ear-right-w{
   position: absolute;
-  left: 40%;
+  left: 380px;
   top: 90px;
-  -webkit-transform: translate(-50%, -50%);
   transform: translate(-54%, -77%);
 
   transform: rotate(
